@@ -6,13 +6,13 @@ gsap.from(".nlink",{
     stagger: 0.2,
     y: 10,
     duration:1,
-    ease: Power3,
+    ease: Power3, 
     opacity:0
 })
 Shery.textAnimate("#heading h1", {
     style: 2,
     y: 10,
-    delay: 0.1,
+    delay: 0.1, 
     duration: 2,
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
     multiplier: 0.1,
@@ -24,7 +24,13 @@ gsap.from(".anim2",{
     ease:Expo,
     duration:1
 })
-Shery.imageEffect("#imgntext img",{
-    style: 3,
-    debug: true
-})
+// Shery.imageEffect("#imgntext img",{
+//     style:3,
+//     debug:true
+// })
+// gsap.from("#imgntext img",{
+//     y:"70",
+//     opacity:0,
+//     duration:2,
+//     ease:Expo,
+// });
